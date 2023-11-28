@@ -1,0 +1,18 @@
+/* App.css */
+
+.ticketSection {
+  display: flex;
+  padding: 1.5rem 2rem;
+  overflow-x: scroll;
+  min-height: calc(100vh - 87.2px);
+  width: 100%;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .ticketSection {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1.5rem 1rem;
+  }
+}

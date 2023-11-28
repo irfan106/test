@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    min-width: 370px;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.title{
+    color: #000;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+}
+
+.left-container{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nums{
+    color: #6e7279;
+}
+
+.right-container{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container{
+    position: relative;
+    z-index: -1;
+}
